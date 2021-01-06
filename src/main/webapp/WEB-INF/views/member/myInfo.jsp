@@ -12,8 +12,8 @@
 	}
 .table {
 	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
+	position: absolute;
+	margin: 0 auto;
 }
 
 .button {
@@ -57,7 +57,7 @@
 				<tr> <td colspan="2"> <h3>${dto.name }님의 정보</h3> <hr> </td> </tr>
 				<tr> <td align="center">이름</td> <td align="center">${dto.name }</td> </tr>
 				<tr> <td align="center">아이디</td> <td align="center">${dto.id }</td> </tr>
-				<tr> <td align="center">비밀번호</td> <td align="center"><input type="button" onclick="inputPw()" value="비밀번호 변경"></td> </tr>
+				<tr> <td align="center">비밀번호</td> <td align="center"><input type="button" class="button button1" onclick="inputPw()" value="비밀번호 변경"></td> </tr>
 				<tr> <td align="center">이메일 주소</td> <td align="center">${dto.email }</td> </tr>
 				<tr> <td align="center">휴대폰 정보</td> <td align="center">${dto.m_tel }</td> </tr>
 				<tr> <td align="center">기본   주소</td> <td align="center">${dto.m_address }</td> </tr>
