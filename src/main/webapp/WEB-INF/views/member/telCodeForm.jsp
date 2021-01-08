@@ -71,7 +71,7 @@
 	
 	<table class="table">
 		<tr>
-			<td colspan="2"><h3>비밀번호 수정</h3><hr></td>
+			<td colspan="2"><h3>인증번호 입력</h3><hr></td>
 		</tr>
 		<tr>
 			<td align="center"><input type="text" name="inputCode" id="inputCode" placeholder="인증번호 입력" style="text-align:left; width:60%; height:30px;"> </td>

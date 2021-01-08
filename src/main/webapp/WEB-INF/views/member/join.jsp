@@ -47,7 +47,7 @@ img {
 <body>
    <jsp:include page="../default/header.jsp"></jsp:include> 
    <div style ="padding: 5px 50px 5px 50px;">
-   <p style="text-align:center; font-size:24px;">백미양식 <b>회원가입</b> 혜택</p>
+   <p style="text-align:center; font-size:24px;">re: direct <b>회원가입</b> 혜택</p>
    
    <h1></h1>
    <table width="100%">

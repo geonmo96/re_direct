@@ -10,16 +10,12 @@
 	.banner{
 		width: 200px;
 		float: left;
+		padding-left: 10px;
 	}
 </style>
 </head>
 <body>
 	<div class="banner">
-		<b>나의 쇼핑 내역</b><br><br>
-		<a href="#">주문</a><br>
-		<a href="https://tracker.delivery/#/:carrier_id/:track_id" target="_blank">배송조회</a><br>
-		<a href="#">취소/반품/교환 신청</a><br>
-		<a href="#">취소/반품/교환 현황</a><br>
 		<c:if test="${sessionScope.login == 'local'}">
 			<hr>
 			<b>회원정보</b><br><br>

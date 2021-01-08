@@ -65,10 +65,10 @@ public class NaverSmsServiceImpl {
 		String space = " "; // one space 
 		String newLine = "\n"; // new line 
 		String method = "POST"; // method 
-		String url = "/sms/v2/services/ncp:sms:kr:262568297465:team-project/messages"; // url (include query string) 
+		String url = "/sms/v2/services/{serviceId}/messages"; // url (include query string) ncp:sms:kr:262568297465:team-project
 		String timestamp = time.toString(); // current timestamp (epoch) 
-		String accessKey = "wKDBuFGJQ7Fn94C53HLw"; // access key id (from portal or Sub Account) 
-		String secretKey = "8MBbMGITUNikr5OwtrPKle7Uy2H8Qy3bsJWcx89Y"; 
+		String accessKey = "accessKey"; // access key id (from portal or Sub Account) 계정관리의 인증키
+		String secretKey = "secretKey"; // 계정 관리의 시크릿 키
 		String message = new StringBuilder().append(method).append(space).append(url).append(newLine).append(timestamp).append(newLine).append(accessKey).toString(); 
 		SecretKeySpec signingKey = new SecretKeySpec(secretKey.getBytes("UTF-8"), "HmacSHA256"); 
 		Mac mac = Mac.getInstance("HmacSHA256"); 

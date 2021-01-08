@@ -14,7 +14,7 @@
 </script>
 <style type="text/css">
 
-table {
+.table {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
@@ -50,7 +50,7 @@ table {
 	<jsp:include page="../default/header.jsp"></jsp:include>
 		<form action="signup" method="post" id="fo">	
 
-			<table>
+			<table class="table">
 				<tr>
 					<td colspan="2">
 						<h3>회원정보 입력</h3><hr>

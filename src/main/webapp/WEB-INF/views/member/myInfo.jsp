@@ -50,7 +50,7 @@
 <body>
 	<jsp:include page="../default/header.jsp"></jsp:include>
 	<br>
-	<div>
+	<div >
 		<div><jsp:include page="../default/banner.jsp"></jsp:include></div>
 		<div class="content">
 			<table class="table">
